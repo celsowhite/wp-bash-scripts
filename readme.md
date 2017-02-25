@@ -11,7 +11,7 @@ A set of bash scripts to make it easier to install and sync your WP sites betwee
 ### Requirements
 
   - SSH access to your server. Specifically private key access so you can authenticate without adding any server passwords.
-  - [wp-cli](http://breakdance.io): Great set of tools for managing WP Installations via the command line
+  - [wp-cli](http://wp-cli.org/): Great set of tools for managing WP Installations via the command line
 
 # Installation
 

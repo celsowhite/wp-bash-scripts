@@ -144,7 +144,7 @@ do
 			# Login to server
 			# ============================
 
-			ssh $ssh_userhost -p$ssh_post bash -c "'
+			ssh $ssh_userhost -p$ssh_port bash -c "'
 
 				# Update the Database
 				# =======================

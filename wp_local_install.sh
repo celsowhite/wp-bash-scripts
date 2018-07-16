@@ -124,9 +124,9 @@ clear
 # Open Project
 # ============================
 
-# Source Code in Sublime
+# Source Code in VS Code
 
-sublime wp-content/themes/$sitename
+code wp-content/themes/$sitename -r
 
 # Site in Chrome
 

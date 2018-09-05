@@ -84,7 +84,7 @@ wp theme install $starter_theme
 
 # Change theme name
 
-mv wp-content/themes/_s wp-content/themes/$sitename
+mv wp-content/themes/wp-starter wp-content/themes/$sitename
 
 # Active theme
 

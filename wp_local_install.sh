@@ -47,8 +47,6 @@ wp db create
 
 wp core install --url=http://localhost:8888/$sitename  --title=$sitename --admin_user=$wp_user --admin_password=$wp_password --admin_email=$wp_email
 
-clear
-
 # ============================
 # Setup Plugins
 # ============================
@@ -74,8 +72,6 @@ then
 	rm ${acf_zip_file}
 fi
 
-clear
-
 # ============================
 # Setup Themes
 # ============================
@@ -98,8 +94,6 @@ wp theme activate $sitename
 
 wp theme delete twentyfifteen twentysixteen twentyseventeen
 
-clear
-
 # ============================
 # Setup Admin Settings
 # ============================
@@ -117,8 +111,6 @@ wp option update page_on_front $(wp post list --post_type=page --post_status=pub
 
 wp rewrite structure '/%postname%/' --hard
 wp rewrite flush --hard
-
-clear
 
 # ============================
 # Open Project

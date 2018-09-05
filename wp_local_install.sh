@@ -35,7 +35,7 @@ wp core download
 
 # Create a WP Config File
 
-wp core config --dbname=$sitename --dbuser=root --dbpass=root --extra-php <<PHP 
+wp config create --dbname=$sitename --dbuser=root --dbpass=root --extra-php <<PHP 
 define( 'WP_DEBUG', true ); 
 PHP
 

@@ -45,7 +45,7 @@ wp db create
 
 # Install Wordpress
 
-wp core install --url=http://localhost:8888/$sitename  --title=$sitename --admin_user=$wp_user --admin_password=$wp_password --admin_email=$wp_email
+wp core install --url=http://$sitename.localhost  --title=$sitename --admin_user=$wp_user --admin_password=$wp_password --admin_email=$wp_email
 
 # ============================
 # Setup Plugins
@@ -122,6 +122,6 @@ code wp-content/themes/$sitename -r
 
 # Site in Chrome
 
-/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:8888/$sitename"
+/usr/bin/open -a "/Applications/Google Chrome.app" "http://$sitename.localhost"
 
 echo 'All Set Up 🤘'

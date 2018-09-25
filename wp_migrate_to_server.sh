@@ -83,7 +83,7 @@ ssh $ssh_userhost -p$ssh_port bash -c "'
 	# =======================
 
 	wp db import $sitename.sql
-	wp search-replace 'http://localhost:8888/$sitename' '$server_url/$sitename'
+	wp search-replace 'http://$sitename.localhost' '$server_url/$sitename'
 
 	# Setup Theme
 	# =======================

@@ -88,7 +88,7 @@ do
 				cd public_html/$sitename
 				wp db reset --yes
 				wp db import $sitename.sql
-				wp search-replace 'http://localhost:8888/$sitename' '$server_url/$sitename'
+				wp search-replace 'http://$sitename.localhost' '$server_url/$sitename'
 
 			'"
 
@@ -152,7 +152,7 @@ do
 				cd public_html/$sitename
 				wp db reset --yes
 				wp db import $sitename.sql
-				wp search-replace 'http://localhost:8888/$sitename' '$server_url/$sitename'
+				wp search-replace 'http://$sitename.localhost' '$server_url/$sitename'
 
 				# Update wp-content
 				# =======================
